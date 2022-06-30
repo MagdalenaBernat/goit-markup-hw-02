@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 
 
     :root {
@@ -81,7 +81,6 @@
         font-family: 'Roboto';
         font-size: 16px;
         font-weight: 500;
-        line-height: ;
         text-decoration: none;
         text-align: center;
         border-radius: 4px;
@@ -140,13 +139,6 @@
         font-weight: 500;
         line-height: 1,17em;
         color:#ffffff
-    }
-
-
-    .text {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1, 17em;
     }
 
 
@@ -282,6 +274,5 @@
         color: #757575;
         background-color: #ffffff;
     }
-
-
+    
 </style>
