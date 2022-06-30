@@ -20,6 +20,7 @@
 
     .logo {
        color: #2196f3;
+       background-color: #ffffff;
        font-family: "Raleway";
        font-size: 26px;
        line-height: 1,17em;
@@ -29,6 +30,7 @@
 
     .logo2 {
         color: #000000;
+        background-color: #ffffff;
         font-family: "Raleway";
         font-size: 26px;
         line-height: 1,17em;
@@ -106,6 +108,7 @@
     .link {
         text-decoration: none;
         color: #000000;
+        background-color: #ffffff;
         cursor:pointer;
     }
  
@@ -130,7 +133,7 @@
         font-style: normal;
     }
 
-    /* Nav, footer */
+        /* Nav, footer */
 
     .text {
         font-size: 14px;
@@ -163,9 +166,12 @@
         background-color: #2F303A;
         }
     
-    /* Only in index.html */
 
-        /* h1 */
+
+        /* Only in index.html */
+
+
+            /* h1 */
     .text-index {
         font-size: 44px;
         font-weight: 900;
@@ -175,27 +181,28 @@
         text-align: center;
         text-transform: capitalize;
         color: #ffffff;
-        background-color: #2f303a
+        background-color: #2f303a;
     }
 
 
     .text-index1 {
         font-size: 14px;
-        font-weight:700;
+        font-weight: 700;
         line-height: 1,17em;
         letter-spacing: 0,03em;
         text-align: left;
-        color: #212121
+        color: #212121;
+        background-color: #ffffff;
     }
 
 
     .text-index2 {
         font-size: 14px;
-        font-weight: 400;
         line-height: 1,71em;
         letter-spacing: 0,03em;
         text-align: left;
-        color: #757575
+        color: #757575;
+        background-color: #ffffff;
     }
 
 
@@ -205,43 +212,76 @@
         line-height: 1,17em;
         letter-spacing: 0,03em;
         text-align: center;
-        color: #212121
+        color: #212121;
+        background-color: #ffffff;
     }
 
 
     .text-index4 {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1,71em;
-        letter-spacing: 0,03em;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1, 17em;
+        letter-spacing: 0, 03em;
         text-align: center;
-        color: #212121
+        color: #212121;
+        background-color: #F5F4FA;
     }
 
 
     .text-index5 {
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1,71em;
         letter-spacing: 0,03em;
         text-align: center;
-        color: #757575
+        color: #212121;
+        background-color: #ffffff;
     }
 
-    /* Only in Portfolio */
 
-    .text-portfolio {
+    .text-index6 {
         font-size: 16px;
-        font-weight: 400;
-        line-height: 1, 71em;
-        letter-spacing: 0, 03em;
+        line-height: 1,71em;
+        letter-spacing: 0,03em;
         text-align: center;
-        color: #757575
+        color: #757575;
+        background-color: #ffffff;
     }
 
-    /* a {
-        text-decoration: none;
+
+        /* Only in Portfolio */
+
+
+    /* .text-portfolio-button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1,63em;
+        letter-spacing: 0,03em;
+        text-align: center;
+        color: #212121;
+        background-color: #F5F4FA;
     } */
+
+
+    .text-portfolio1 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2em;
+        letter-spacing: 0,06em;
+        text-align: left;
+        color: #212121;
+        background-color: #ffffff;
+    }
+
+
+    .text-portfolio2 {
+        font-size: 16px;
+        line-height: 1,88em;
+        letter-spacing: 0,03em;
+        text-align: left;
+        color: #757575;
+        background-color: #ffffff;
+    }
 
 
 </style>
