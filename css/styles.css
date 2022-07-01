@@ -125,6 +125,7 @@
 
     .portfolio-button:hover {
         background-color:#2196f3;
+        color:#ffffff;
         cursor: grab;
         text-decoration: underline;
         text-decoration-color: #2196f3;
