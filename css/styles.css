@@ -56,8 +56,34 @@
     }
     
 
-    .index-button {
+    /* .button {
+        display: block;
         color: #000000;
+        background-color: #2196F3;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1, 875em;
+        letter-spacing: 0, 06em;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 10px;
+        width: 121px;
+    }
+
+    .button:hover {
+        background-color: #2196f3;
+        cursor: grab;
+        text-decoration: underline;
+        text-decoration-color: #2196f3;
+    } */
+
+
+    .index-button {
+        display: block;
+        color: #F5F4FA;
         background-color: #2196F3;
         font-family: 'Roboto';
         font-size: 16px;
@@ -73,7 +99,15 @@
     }
 
 
-    .portfolio-button>li {
+    .index-button:hover {
+        background-color: #2196f3;
+        cursor: grab;
+        text-decoration: underline;
+        text-decoration-color: #2196f3;
+    }
+
+
+    .portfolio-button {
         color: #000000;
         background-color: #F5F4FA;
         font-family: 'Roboto';
@@ -81,6 +115,7 @@
         font-weight: 500;
         text-decoration: none;
         text-align: center;
+        border: 0px;
         border-radius: 4px;
         padding: 10px;
         margin: 10px;
@@ -88,9 +123,9 @@
     }
     
 
-    .portfolio-button>li:hover {
+    .portfolio-button:hover {
         background-color:#2196f3;
-        cursor: pointer;
+        cursor: grab;
         text-decoration: underline;
         text-decoration-color: #2196f3;
     }
@@ -99,6 +134,7 @@
     .social-links .link:hover,
     .social-links .link:focus {
         color: #2196f3;
+        cursor: grab;
     }
 
 
@@ -113,6 +149,7 @@
     .social-links .link:hover,
     .social-links .link:focus {
         color:#2196f3;
+        cursor: grab;
     }
 
 
@@ -142,7 +179,6 @@
 
     .info1 {
         color: #757575;
-        background-color: #ffffff;
     }
 
 
@@ -150,6 +186,7 @@
         color: #ffffff;
         background-color: #2F303A;
     }
+
     
     .info3 {
         color: rgba(255, 255, 255, 0.6);
@@ -157,11 +194,23 @@
         }
     
 
+    .footer-background-color {
+        background-color: #2F303A;
+    }
+
+
 
         /* Only in index.html */
 
 
             /* h1 */
+
+
+    .background-section-h1 {
+        background-color: #2f303a;
+    }
+
+
     .text-index {
         font-size: 44px;
         font-weight: 900;
@@ -237,6 +286,12 @@
         color: #757575;
         background-color: #ffffff;
     }
+
+
+    .section-background-color {
+        background-color: #F5F4FA;
+    }
+
 
 
         /* Only in Portfolio */
